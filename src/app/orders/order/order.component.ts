@@ -3,7 +3,10 @@ import { ActivatedRoute, ActivationEnd, Router } from '@angular/router';
 import { Orders } from 'src/app/models/order.model';
 import { ProductService } from 'src/app/products/product.service';
 import { OrderDetailsComponent } from './order-details/order-details.component';
+<<<<<<< HEAD
 import { CartProduct } from 'src/app/models/cartProduct.model';
+=======
+>>>>>>> eb2d27557ec0a8ac5e2b4815807a1d55f6d09555
 Injectable()
 @Component({
   selector: 'app-order',
@@ -13,6 +16,7 @@ Injectable()
 export class OrderComponent implements OnInit {
   @Input() order : Orders;
   id : number;
+<<<<<<< HEAD
 
   products : CartProduct [] = [
 
@@ -31,6 +35,8 @@ export class OrderComponent implements OnInit {
 
   }
   ]
+=======
+>>>>>>> eb2d27557ec0a8ac5e2b4815807a1d55f6d09555
   ngOnInit(){
 
   }

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* body {
+=======
+body {
+>>>>>>> eb2d27557ec0a8ac5e2b4815807a1d55f6d09555
     font-family: Arial, sans-serif;
     margin: 0;
     width: 80%;
@@ -43,6 +47,7 @@
   .product-price {
     font-size: 1.2rem;
     font-weight: bold;
+<<<<<<< HEAD
   }
    */
    body{
@@ -174,3 +179,6 @@
   }
   
    
+=======
+  }
+>>>>>>> eb2d27557ec0a8ac5e2b4815807a1d55f6d09555
